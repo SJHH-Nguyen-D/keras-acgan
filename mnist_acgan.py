@@ -127,9 +127,8 @@ def build_discriminator():
 if __name__ == '__main__':
 
     # batch and latent size taken from the paper
-    # made small experimental adjustment from batch_size=100 to batch_size=128
     nb_epochs = 50
-    batch_size = 128
+    batch_size = 100
     latent_size = 100
 
     # Adam parameters suggested in https://arxiv.org/abs/1511.06434
